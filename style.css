@@ -278,13 +278,15 @@ h2 {
     margin-bottom: 20px;
 }
 
-.delivery > span {
+.details {
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
+    text-decoration: none;
+    color: #0E2F4B;
 }
 
-.linkMenu:hover, .delivery > span:hover {
+.linkMenu:hover, .details:hover {
     cursor: pointer;
     text-decoration: underline #0E2F4B;
 }
@@ -334,5 +336,103 @@ h2 {
     font-weight: 700;
     line-height: 80px;
     border: #FDC13D;
+    margin-left: 15px;
+}
+
+.finances {
+    width: 100vw;
+    background-color: #F8F8F8;
+}
+.financesContent{
+    display: flex;
+    flex-direction: column;
+    padding-left: 125px;
+}
+.charity {
+    width: 1190px;
+    height: 220px;
+    background-color: #FDC13D;
+    border-radius: 10px;
+    color: #0E2F4B;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 50px 75px 25px;
+    margin-bottom: 120px;
+}
+.charity>h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.charity>p{
+    font-family: Open Sans, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.charity > a {
+    font-size: 16px;
+    line-height: 24px;
+}
+.financesContent>h2{
+    width: 470px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+.financesServices{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 210px;
+}
+.financesService{
+    margin-right: 200px;
+    height: 100px;
+}
+.financesService>h3{
+    max-width: 170px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #0E2F4B;
+}
+.searchIndexContainer{
+    width: 100vw;
+    background-color: #0E2F4B;
+}
+.searchIndexContent>h2{
+    color: #F8F8F8;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.searchIndexContent>p{
+    color: #99A2AA;
+    font-family: Open Sans, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: #757575;
 }
 
