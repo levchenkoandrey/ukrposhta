@@ -404,21 +404,96 @@ margin-top: 5px;
 .searchIndexContainer{
     width: 100vw;
     background-color: #0E2F4B;
+
+}
+.searchIndexContent{
+    padding-left: 125px;
+    padding-top: 165px;
 }
 .searchIndexContent>h2{
+    width: 360px;
     color: #F8F8F8;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
 }
 .searchIndexContent>p{
+    width: 1135px;
     color: #99A2AA;
     font-family: Open Sans, serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 65px;
 }
-
+.searchIndexTown{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 155px;
+}
+.searchIndexTown>input{
+    width: 505px;
+    height: 80px;
+    border-radius: 10px;
+    border: #FFFFFF;
+    color: #6C757D;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    margin-right: 12px;
+}
+.searchIndexTown>button{
+    width: 250px;
+    height: 80px;
+    background-color: #FDC13D;
+    color: #0E2F4B;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 80px;
+    border-radius: 10px;
+    border: #FDC13D;
+}
+.newsContainer{
+    width: 100vw;
+    background-color: #F8F8F8;
+}
+.newsBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news{
+    background-color: #FFF;
+    width: 580px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-radius: 10px;
+}
+.news>svg{
+    margin-right: 20px;
+}
+.date>span{
+    color: #99A2AA;
+    font-family: Open Sans, serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.date>p{
+    margin-top: 10px;
+    color: #0E2F4B;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    max-width: 335px;
+}
+.news>p{
+    color: #0E2F4B;
+    font-family: Open Sans, serif;
+    font-size: 16px;
+    line-height: 30px;
+}
 
 
 
