@@ -88,7 +88,6 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     font-family: 'Rubik', serif;
@@ -107,7 +106,6 @@ html {
 .mainContainer {
     width: 100%;
     overflow: hidden;
-    /*background-color: #F8F8F8;*/
 }
 
 .margleft {
@@ -339,15 +337,21 @@ h2 {
     margin-left: 15px;
 }
 
+.internationalBusinessContent > button:hover {
+    cursor: pointer;
+}
+
 .finances {
     width: 100vw;
     background-color: #F8F8F8;
 }
-.financesContent{
+
+.financesContent {
     display: flex;
     flex-direction: column;
     padding-left: 125px;
 }
+
 .charity {
     width: 1190px;
     height: 220px;
@@ -360,17 +364,19 @@ h2 {
     padding: 50px 75px 25px;
     margin-bottom: 120px;
 }
-.charity>h3{
+
+.charity > h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
 }
-.charity>p{
+
+.charity > p {
     font-family: Open Sans, serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
@@ -378,46 +384,54 @@ margin-top: 5px;
     font-size: 16px;
     line-height: 24px;
 }
-.financesContent>h2{
+
+.financesContent > h2 {
     width: 470px;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
     margin-bottom: 60px;
 }
-.financesServices{
+
+.financesServices {
     display: flex;
     margin-left: 30px;
     margin-bottom: 210px;
 }
-.financesService{
+
+.financesService {
     margin-right: 200px;
     height: 100px;
 }
-.financesService>h3{
+
+.financesService > h3 {
     max-width: 170px;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     color: #0E2F4B;
 }
-.searchIndexContainer{
+
+.searchIndexContainer {
     width: 100vw;
     background-color: #0E2F4B;
 
 }
-.searchIndexContent{
+
+.searchIndexContent {
     padding-left: 125px;
     padding-top: 165px;
 }
-.searchIndexContent>h2{
+
+.searchIndexContent > h2 {
     width: 360px;
     color: #F8F8F8;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
 }
-.searchIndexContent>p{
+
+.searchIndexContent > p {
     width: 1135px;
     color: #99A2AA;
     font-family: Open Sans, serif;
@@ -426,13 +440,15 @@ margin-top: 5px;
     line-height: 30px;
     margin-bottom: 65px;
 }
-.searchIndexTown{
+
+.searchIndexTown {
     height: 100px;
     display: flex;
     align-items: center;
     margin-bottom: 155px;
 }
-.searchIndexTown>input{
+
+.searchIndexTown > input {
     width: 505px;
     height: 80px;
     border-radius: 10px;
@@ -443,7 +459,8 @@ margin-top: 5px;
     padding-left: 30px;
     margin-right: 12px;
 }
-.searchIndexTown>button{
+
+.searchIndexTown > button {
     width: 250px;
     height: 80px;
     background-color: #FDC13D;
@@ -454,15 +471,38 @@ margin-top: 5px;
     border-radius: 10px;
     border: #FDC13D;
 }
-.newsContainer{
+
+.searchIndexTown > button:hover {
+    cursor: pointer;
+}
+
+.newsContainer {
     width: 100vw;
     background-color: #F8F8F8;
 }
-.newsBlock{
+
+.newsContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 125px;
+    padding-top: 50px;
+}
+
+.newsContent > h2 {
+    margin-top: 80px;
+    width: 510px;
+    color: #0E2F4B;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.newsBlock {
     display: flex;
     flex-wrap: wrap;
 }
-.news{
+
+.news {
     background-color: #FFF;
     width: 580px;
     height: 250px;
@@ -470,44 +510,67 @@ margin-top: 5px;
     flex-wrap: wrap;
     padding: 30px;
     border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
-.news>svg{
+
+.news > svg {
     margin-right: 20px;
+    margin-bottom: 10px;
 }
-.date>span{
+
+.date > span {
     color: #99A2AA;
     font-family: Open Sans, serif;
     font-size: 14px;
     line-height: 24px;
 }
-.date>p{
+
+.date > p {
     margin-top: 10px;
     color: #0E2F4B;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
-    max-width: 335px;
+    max-width: 380px;
 }
-.news>p{
+
+.news > p {
+    height: 70px;
     color: #0E2F4B;
     font-family: Open Sans, serif;
     font-size: 16px;
     line-height: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-footer{
-    width: 100vw;
-    height: 200px;
-    background-color: #757575;
+.forLegalEntities {
+    width: 1190px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.forLegalEntitiesBlock {
+    width: 370px;
+    height: 95px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #99A2AA;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.forLegalEntitiesBlock:hover {
+    cursor: pointer;
+    background-color: #FDC13D;
+    color: #0E2F4B;
+}
+
 
